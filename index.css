@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1F2937;
+}
+
+h3{
+    width: 193px;
+    height: 5px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: cornsilk;
+}
+
+.homeScore,.guestScore {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    color: red;
+    width: 120px;
+    margin: 20px;
+    width: 155px;
+    height: 103px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resetTheScoreBtn {
+    margin: 255px;
+    margin-left: -100px;
+    margin-right: -100px;
+    background: #0a0001;
+    color: red;
+    width: 100px;
+    height: 45px;
+    position: absolute;  
+    position: relative;
+}
+
+button {
+    background: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    width: 45px;
+    height: 35px;
+}
